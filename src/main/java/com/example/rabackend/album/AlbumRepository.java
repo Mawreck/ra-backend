@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://ra-frontend.herokuapp.com")
 public interface AlbumRepository extends JpaRepository<Album, Long> {
 
     Page<Album> findByUserId(@Param("userId") Long userId, Pageable pageable);
