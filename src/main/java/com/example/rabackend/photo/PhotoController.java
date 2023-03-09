@@ -1,7 +1,6 @@
-package com.example.rabackend.album;
+package com.example.rabackend.photo;
 
-import com.example.rabackend.photo.Photo;
-import com.example.rabackend.photo.PhotoRepository;
+import com.example.rabackend.album.AlbumRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
